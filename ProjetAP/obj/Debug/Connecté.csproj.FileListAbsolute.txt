@@ -1,0 +1,42 @@
+F:\2021-2022\SIO2\Prog C#\TP Banque 2021-2022\Ado.net\Connecte Corrige Mysql-Bis\obj\Debug\Connecté.Form1.resources
+F:\2021-2022\SIO2\Prog C#\TP Banque 2021-2022\Ado.net\Connecte Corrige Mysql-Bis\obj\Debug\Connecté.Properties.Resources.resources
+F:\2021-2022\SIO2\Prog C#\TP Banque 2021-2022\Ado.net\Connecte Corrige Mysql-Bis\obj\Debug\Connecté.csproj.GenerateResource.cache
+F:\2021-2022\SIO2\Prog C#\TP Banque 2021-2022\Ado.net\Connecte Corrige Mysql-Bis\bin\Debug\Connecté.exe.config
+F:\2021-2022\SIO2\Prog C#\TP Banque 2021-2022\Ado.net\Connecte Corrige Mysql-Bis\bin\Debug\Connecté.exe
+F:\2021-2022\SIO2\Prog C#\TP Banque 2021-2022\Ado.net\Connecte Corrige Mysql-Bis\bin\Debug\Connecté.pdb
+F:\2021-2022\SIO2\Prog C#\TP Banque 2021-2022\Ado.net\Connecte Corrige Mysql-Bis\bin\Debug\MySql.Data.dll
+F:\2021-2022\SIO2\Prog C#\TP Banque 2021-2022\Ado.net\Connecte Corrige Mysql-Bis\bin\Debug\Google.Protobuf.dll
+F:\2021-2022\SIO2\Prog C#\TP Banque 2021-2022\Ado.net\Connecte Corrige Mysql-Bis\bin\Debug\BouncyCastle.Crypto.dll
+F:\2021-2022\SIO2\Prog C#\TP Banque 2021-2022\Ado.net\Connecte Corrige Mysql-Bis\bin\Debug\Ubiety.Dns.Core.dll
+F:\2021-2022\SIO2\Prog C#\TP Banque 2021-2022\Ado.net\Connecte Corrige Mysql-Bis\bin\Debug\Renci.SshNet.dll
+F:\2021-2022\SIO2\Prog C#\TP Banque 2021-2022\Ado.net\Connecte Corrige Mysql-Bis\bin\Debug\MySql.Data.xml
+F:\2021-2022\SIO2\Prog C#\TP Banque 2021-2022\Ado.net\Connecte Corrige Mysql-Bis\obj\Debug\Connecté.csprojAssemblyReference.cache
+F:\2021-2022\SIO2\Prog C#\TP Banque 2021-2022\Ado.net\Connecte Corrige Mysql-Bis\obj\Debug\Connecté.csproj.CopyComplete
+F:\2021-2022\SIO2\Prog C#\TP Banque 2021-2022\Ado.net\Connecte Corrige Mysql-Bis\obj\Debug\Connecté.exe
+F:\2021-2022\SIO2\Prog C#\TP Banque 2021-2022\Ado.net\Connecte Corrige Mysql-Bis\obj\Debug\Connecté.pdb
+F:\2021-2022\SIO2\Prog C#\TP Banque 2021-2022\Ado.net\Connecte Corrige Mysql\bin\Debug\Connecté.exe.config
+F:\2021-2022\SIO2\Prog C#\TP Banque 2021-2022\Ado.net\Connecte Corrige Mysql\bin\Debug\Connecté.exe
+F:\2021-2022\SIO2\Prog C#\TP Banque 2021-2022\Ado.net\Connecte Corrige Mysql\bin\Debug\Connecté.pdb
+F:\2021-2022\SIO2\Prog C#\TP Banque 2021-2022\Ado.net\Connecte Corrige Mysql\bin\Debug\Google.Protobuf.dll
+F:\2021-2022\SIO2\Prog C#\TP Banque 2021-2022\Ado.net\Connecte Corrige Mysql\bin\Debug\BouncyCastle.Crypto.dll
+F:\2021-2022\SIO2\Prog C#\TP Banque 2021-2022\Ado.net\Connecte Corrige Mysql\bin\Debug\Ubiety.Dns.Core.dll
+F:\2021-2022\SIO2\Prog C#\TP Banque 2021-2022\Ado.net\Connecte Corrige Mysql\bin\Debug\Renci.SshNet.dll
+F:\2021-2022\SIO2\Prog C#\TP Banque 2021-2022\Ado.net\Connecte Corrige Mysql\bin\Debug\MySql.Data.xml
+F:\2021-2022\SIO2\Prog C#\TP Banque 2021-2022\Ado.net\Connecte Corrige Mysql\obj\Debug\Connecté.csproj.AssemblyReference.cache
+F:\2021-2022\SIO2\Prog C#\TP Banque 2021-2022\Ado.net\Connecte Corrige Mysql\obj\Debug\Connecté.Form1.resources
+F:\2021-2022\SIO2\Prog C#\TP Banque 2021-2022\Ado.net\Connecte Corrige Mysql\obj\Debug\Connecté.Properties.Resources.resources
+F:\2021-2022\SIO2\Prog C#\TP Banque 2021-2022\Ado.net\Connecte Corrige Mysql\obj\Debug\Connecté.csproj.GenerateResource.cache
+F:\2021-2022\SIO2\Prog C#\TP Banque 2021-2022\Ado.net\Connecte Corrige Mysql\obj\Debug\Connecté.csproj.CoreCompileInputs.cache
+F:\2021-2022\SIO2\Prog C#\TP Banque 2021-2022\Ado.net\Connecte Corrige Mysql\obj\Debug\Connecté.exe
+F:\2021-2022\SIO2\Prog C#\TP Banque 2021-2022\Ado.net\Connecte Corrige Mysql\obj\Debug\Connecté.pdb
+F:\BTS-2022-2023\AP\Mission2-C#\Connecte Corrige Mysql - Mission2\bin\Debug\Connecté.exe.config
+F:\BTS-2022-2023\AP\Mission2-C#\Connecte Corrige Mysql - Mission2\bin\Debug\Connecté.exe
+F:\BTS-2022-2023\AP\Mission2-C#\Connecte Corrige Mysql - Mission2\bin\Debug\Connecté.pdb
+F:\BTS-2022-2023\AP\Mission2-C#\Connecte Corrige Mysql - Mission2\bin\Debug\Ubiety.Dns.Core.dll
+F:\BTS-2022-2023\AP\Mission2-C#\Connecte Corrige Mysql - Mission2\obj\Debug\Connecté.Properties.Resources.resources
+F:\BTS-2022-2023\AP\Mission2-C#\Connecte Corrige Mysql - Mission2\obj\Debug\Connecté.csproj.GenerateResource.cache
+F:\BTS-2022-2023\AP\Mission2-C#\Connecte Corrige Mysql - Mission2\obj\Debug\Connecté.csproj.CoreCompileInputs.cache
+F:\BTS-2022-2023\AP\Mission2-C#\Connecte Corrige Mysql - Mission2\obj\Debug\Connecté.exe
+F:\BTS-2022-2023\AP\Mission2-C#\Connecte Corrige Mysql - Mission2\obj\Debug\Connecté.pdb
+F:\BTS-2022-2023\AP\Mission2-C#\Connecte Corrige Mysql - Mission2\obj\Debug\Connecte.Form1.resources
+F:\BTS-2022-2023\AP\Mission2-C#\Connecte Corrige Mysql - Mission2\obj\Debug\Connecté.csproj.AssemblyReference.cache
