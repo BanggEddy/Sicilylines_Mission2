@@ -84,3 +84,29 @@ C:\SIO2\AP\Projet_2\Pratique\MISSION2\ProjetAP\obj\Debug\Projet Employe.csproj.C
 C:\SIO2\AP\Projet_2\Pratique\MISSION2\ProjetAP\obj\Debug\Projet Employe.csproj.CopyComplete
 C:\SIO2\AP\Projet_2\Pratique\MISSION2\ProjetAP\obj\Debug\Connecte.exe
 C:\SIO2\AP\Projet_2\Pratique\MISSION2\ProjetAP\obj\Debug\Connecte.pdb
+C:\Users\david\Desktop\Sicilylines_Mission2\ProjetAP\bin\Debug\Connecte.exe.config
+C:\Users\david\Desktop\Sicilylines_Mission2\ProjetAP\bin\Debug\Connecte.exe
+C:\Users\david\Desktop\Sicilylines_Mission2\ProjetAP\bin\Debug\Connecte.pdb
+C:\Users\david\Desktop\Sicilylines_Mission2\ProjetAP\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\david\Desktop\Sicilylines_Mission2\ProjetAP\obj\Debug\Projet Employe.csproj.AssemblyReference.cache
+C:\Users\david\Desktop\Sicilylines_Mission2\ProjetAP\obj\Debug\Projet Employe.csproj.SuggestedBindingRedirects.cache
+C:\Users\david\Desktop\Sicilylines_Mission2\ProjetAP\obj\Debug\Connecte.Front.resources
+C:\Users\david\Desktop\Sicilylines_Mission2\ProjetAP\obj\Debug\Connecte.Properties.Resources.resources
+C:\Users\david\Desktop\Sicilylines_Mission2\ProjetAP\obj\Debug\Projet Employe.csproj.GenerateResource.cache
+C:\Users\david\Desktop\Sicilylines_Mission2\ProjetAP\obj\Debug\Projet Employe.csproj.CoreCompileInputs.cache
+C:\Users\david\Desktop\Sicilylines_Mission2\ProjetAP\obj\Debug\Projet Employe.csproj.CopyComplete
+C:\Users\david\Desktop\Sicilylines_Mission2\ProjetAP\obj\Debug\Connecte.exe
+C:\Users\david\Desktop\Sicilylines_Mission2\ProjetAP\obj\Debug\Connecte.pdb
+F:\Sicilylines_Mission2\ProjetAP\bin\Debug\Connecte.exe.config
+F:\Sicilylines_Mission2\ProjetAP\bin\Debug\Connecte.exe
+F:\Sicilylines_Mission2\ProjetAP\bin\Debug\Connecte.pdb
+F:\Sicilylines_Mission2\ProjetAP\bin\Debug\Ubiety.Dns.Core.dll
+F:\Sicilylines_Mission2\ProjetAP\obj\Debug\Projet Employe.csproj.AssemblyReference.cache
+F:\Sicilylines_Mission2\ProjetAP\obj\Debug\Projet Employe.csproj.SuggestedBindingRedirects.cache
+F:\Sicilylines_Mission2\ProjetAP\obj\Debug\Connecte.Front.resources
+F:\Sicilylines_Mission2\ProjetAP\obj\Debug\Connecte.Properties.Resources.resources
+F:\Sicilylines_Mission2\ProjetAP\obj\Debug\Projet Employe.csproj.GenerateResource.cache
+F:\Sicilylines_Mission2\ProjetAP\obj\Debug\Projet Employe.csproj.CoreCompileInputs.cache
+F:\Sicilylines_Mission2\ProjetAP\obj\Debug\Projet Employe.csproj.CopyComplete
+F:\Sicilylines_Mission2\ProjetAP\obj\Debug\Connecte.exe
+F:\Sicilylines_Mission2\ProjetAP\obj\Debug\Connecte.pdb

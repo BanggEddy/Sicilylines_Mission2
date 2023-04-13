@@ -45,7 +45,7 @@ namespace Connecte.DAL
                 maConnexionSql.openConnection();
 
 
-                Ocom = maConnexionSql.reqExec("Select * from liaison where idSecteur = " + idSecteur);
+                Ocom = maConnexionSql.reqExec("Select * from liaison where idSecteur = " + idSecteur +"+1");
 
 
                 MySqlDataReader reader1 = Ocom.ExecuteReader();
@@ -147,9 +147,9 @@ namespace Connecte.DAL
                 maConnexionSql = ConnexionSql.getInstance(provider, dataBase, uid, mdp);
 
                 maConnexionSql.openConnection();
-
-                Ocom = maConnexionSql.reqExec("INSERT INTO liaison(duree, port_depart, port_arrivee, idSecteur) VALUES('"+ duree+"',"+monPortDepart +","+monPortArrivee+","+idSecteur+")");
-
+                String sqlReq = "INSERT INTO liaison(duree, port_depart, port_arrivee, idSecteur) VALUES('" + duree + "'," + monPortDepart + "," + monPortArrivee + "," + idSecteur + ");";
+                Ocom = maConnexionSql.reqExec(sqlReq);
+                Console.WriteLine(sqlReq);
 
                 int i = Ocom.ExecuteNonQuery();
 

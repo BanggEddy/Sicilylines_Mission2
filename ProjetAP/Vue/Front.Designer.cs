@@ -46,15 +46,13 @@
             this.textBoxDureeLiaison = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.textBoxDureeAjout = new System.Windows.Forms.TextBox();
             this.buttonAjout = new System.Windows.Forms.Button();
-            this.textBoxPortArrAjout = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBoxPortDepAjout = new System.Windows.Forms.TextBox();
-            this.textBoxIdSecteur = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -230,14 +228,12 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.label9);
-            this.groupBox3.Controls.Add(this.textBoxIdSecteur);
-            this.groupBox3.Controls.Add(this.textBoxPortDepAjout);
+            this.groupBox3.Controls.Add(this.comboBox2);
+            this.groupBox3.Controls.Add(this.comboBox1);
             this.groupBox3.Controls.Add(this.label8);
             this.groupBox3.Controls.Add(this.label7);
             this.groupBox3.Controls.Add(this.textBoxDureeAjout);
             this.groupBox3.Controls.Add(this.buttonAjout);
-            this.groupBox3.Controls.Add(this.textBoxPortArrAjout);
             this.groupBox3.Controls.Add(this.label5);
             this.groupBox3.Location = new System.Drawing.Point(451, 306);
             this.groupBox3.Name = "groupBox3";
@@ -246,6 +242,24 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Ajout d\'une liaison";
             this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(240, 78);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(121, 21);
+            this.comboBox2.TabIndex = 40;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(240, 32);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.TabIndex = 39;
             // 
             // label8
             // 
@@ -268,7 +282,7 @@
             // 
             // textBoxDureeAjout
             // 
-            this.textBoxDureeAjout.Location = new System.Drawing.Point(60, 32);
+            this.textBoxDureeAjout.Location = new System.Drawing.Point(41, 51);
             this.textBoxDureeAjout.Name = "textBoxDureeAjout";
             this.textBoxDureeAjout.Size = new System.Drawing.Size(100, 20);
             this.textBoxDureeAjout.TabIndex = 33;
@@ -283,45 +297,14 @@
             this.buttonAjout.UseVisualStyleBackColor = true;
             this.buttonAjout.Click += new System.EventHandler(this.buttonAjout_Click);
             // 
-            // textBoxPortArrAjout
-            // 
-            this.textBoxPortArrAjout.Location = new System.Drawing.Point(225, 80);
-            this.textBoxPortArrAjout.Name = "textBoxPortArrAjout";
-            this.textBoxPortArrAjout.Size = new System.Drawing.Size(100, 20);
-            this.textBoxPortArrAjout.TabIndex = 9;
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(91, 16);
+            this.label5.Location = new System.Drawing.Point(69, 32);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(36, 13);
             this.label5.TabIndex = 11;
             this.label5.Text = "Duree";
-            // 
-            // textBoxPortDepAjout
-            // 
-            this.textBoxPortDepAjout.Location = new System.Drawing.Point(225, 35);
-            this.textBoxPortDepAjout.Name = "textBoxPortDepAjout";
-            this.textBoxPortDepAjout.Size = new System.Drawing.Size(100, 20);
-            this.textBoxPortDepAjout.TabIndex = 36;
-            // 
-            // textBoxIdSecteur
-            // 
-            this.textBoxIdSecteur.Location = new System.Drawing.Point(60, 80);
-            this.textBoxIdSecteur.Name = "textBoxIdSecteur";
-            this.textBoxIdSecteur.Size = new System.Drawing.Size(100, 20);
-            this.textBoxIdSecteur.TabIndex = 37;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(78, 64);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(72, 13);
-            this.label9.TabIndex = 38;
-            this.label9.Text = "l\'id du secteur";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // Front
             // 
@@ -379,14 +362,12 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Button buttonAjout;
-        private System.Windows.Forms.TextBox textBoxPortArrAjout;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox textBoxDureeAjout;
-        private System.Windows.Forms.TextBox textBoxPortDepAjout;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBoxIdSecteur;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
 

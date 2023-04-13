@@ -35,8 +35,26 @@ namespace Connecte
 
             lSecteur = monManager.chargementEmpBD();
 
-        
-        affiche();
+
+            //Permet de reset, ou sinon il va garder les précédents valeurs
+            comboBox2.DataSource = null;
+            //La classe LiaisonDAO va dans getLiaison et va dans l'id de la liste de secteur
+            comboBox2.DataSource = PortDAO.GetPort();
+            //Permet d'afficher la description
+            comboBox2.DisplayMember = "Description";
+
+
+            //Permet de reset, ou sinon il va garder les précédents valeurs
+            comboBox1.DataSource = null;
+            //La classe LiaisonDAO va dans getLiaison et va dans l'id de la liste de secteur
+            comboBox1.DataSource = PortDAO.GetPort();
+            //Permet d'afficher la description
+            comboBox1.DisplayMember = "Description";
+
+
+            affiche();
+
+
         }
 
         public void affiche()
@@ -185,13 +203,21 @@ namespace Connecte
 
         }
 
+            //L'objet prend la liste des secteurs
         private void buttonAjout_Click(object sender, EventArgs e)
         {
-            Liaison uneLiaison = (Liaison)listBoxLiaison.SelectedItem;
+            Secteur secteur = listBoxSecteur.SelectedItem as Secteur;
+            //L'objet prend la liste des secteurs
+            Port portdepart = comboBox1.SelectedItem as Port;
+            //L'objet prend la liste des secteurs
+            Port portarrivee = comboBox2.SelectedItem as Port;
+
+            LiaisonDAO.ajoutLiaison( textBoxDureeAjout.Text , portdepart.Id,  portarrivee.Id, secteur.Id);
+
             //Permet de reset, ou sinon il va garder les précédents valeurs
+            Liaison uneLiaison = (Liaison)listBoxLiaison.SelectedItem;
             listBoxLiaison.DataSource = null;
-            LiaisonDAO.ajoutLiaison(textBoxDureeAjout.Text,  Convert.ToInt32(textBoxPortDepAjout.Text), Convert.ToInt32(textBoxPortArrAjout.Text),Convert.ToInt32(textBoxIdSecteur.Text));
-            // Ajout
+            // Ajout en appellant la méthode
 
 
 
@@ -206,6 +232,8 @@ namespace Connecte
         {
 
         }
+
+
     }
 
 
