@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace Connecte.DAL
 {
-    public class LiaisonDAO
+    internal class LiaisonDAO
     {
 
         // attributs de connexion statiques
@@ -32,7 +32,7 @@ namespace Connecte.DAL
 
 
         //Afficher les liaisons
-        public static List<Liaison> getLiaison(int idSecteur)
+        public static List<Liaison> GetLiaison(int idSecteur)
         {
 
             try

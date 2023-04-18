@@ -116,17 +116,17 @@ namespace Connecte
                 //L'objet prend la liste de la lisaison
                 Liaison uneLiaison = (Liaison)listBoxLiaison.SelectedItem;
                 //la classe utilise la méthode deleteLiaison et prend la liste de lisaion
-                LiaisonDAO.deleteLiaison(uneLiaison.idLiaison);
+                LiaisonDAO.deleteLiaison(uneLiaison.IdLiaison);
 
 
 
                 //L'objet prend la liste des secteurs
                 var secteur = listBoxSecteur.SelectedItem as Secteur;
                 //La classe utilise la méthode et va chercher dans les id de la liste des secteurs
-                listBoxLiaison.DataSource = LiaisonDAO.getLiaison(secteur.Id);
+                listBoxLiaison.DataSource = LiaisonDAO.GetLiaison(secteur.Id);
                 //Affiche le return de la méthode description
                 listBoxLiaison.DisplayMember = "Description";
-
+                affiche();
             }
 
             catch (Exception ex)
@@ -168,7 +168,9 @@ namespace Connecte
             //Création de l'objet uneLiaison qui prend la liste de liaison 
             Liaison uneLiaison = (Liaison)listBoxLiaison.SelectedItem;
             //La classe LiaisonDAO utilise la méthode modifLiaison et prend en paramètre l'id de la liste de liaison)
-            LiaisonDAO.modifLiaison(uneLiaison.idLiaison, textBoxDureeLiaison.Text);
+            LiaisonDAO.modifLiaison(uneLiaison.IdLiaison, textBoxDureeLiaison.Text);
+            affiche();
+
 
         }
 
@@ -179,13 +181,25 @@ namespace Connecte
             //Permet de reset, ou sinon il va garder les précédents valeurs
             listBoxLiaison.DataSource = null;
             //La classe LiaisonDAO va dans getLiaison et va dans l'id de la liste de secteur
-            listBoxLiaison.DataSource = LiaisonDAO.getLiaison(secteur);
+            listBoxLiaison.DataSource = LiaisonDAO.GetLiaison(secteur);
             //Permet d'afficher la description
             listBoxLiaison.DisplayMember = "Description";
         }
 
         private void listBoxLiaison_SelectedIndexChanged(object sender, EventArgs e)
         {
+            //Permet de prendre l'id de la chose sélectionnée
+            Liaison liaisonSelec = listBoxLiaison.SelectedItem as Liaison;
+            //Permet de reset, ou sinon il va garder les précédents valeurs
+            listBoxTraversee.DataSource = null;
+            //La classe TraverseeDAO va dans getLiaison et va dans l'id de la liste de la liaison
+            if(liaisonSelec != null)
+            {
+                listBoxTraversee.DataSource = TraverseeDAO.GetTraversee(liaisonSelec.IdLiaison);
+                //Permet d'afficher la description
+                listBoxTraversee.DisplayMember = "Description";
+
+            }
 
         }
 
@@ -220,6 +234,7 @@ namespace Connecte
             listBoxLiaison.DataSource = null;
             // Ajout en appellant la méthode
 
+            affiche();
 
 
         }
@@ -234,7 +249,15 @@ namespace Connecte
 
         }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
 
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 
 

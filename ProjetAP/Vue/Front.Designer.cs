@@ -53,6 +53,8 @@
             this.textBoxDureeAjout = new System.Windows.Forms.TextBox();
             this.buttonAjout = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.listBoxTraversee = new System.Windows.Forms.ListBox();
             this.groupBox1.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -91,7 +93,7 @@
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.tbLogin);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Location = new System.Drawing.Point(70, 186);
+            this.groupBox1.Location = new System.Drawing.Point(95, 362);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(160, 114);
             this.groupBox1.TabIndex = 20;
@@ -150,7 +152,7 @@
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.button4);
-            this.groupBox4.Location = new System.Drawing.Point(667, 186);
+            this.groupBox4.Location = new System.Drawing.Point(692, 362);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(140, 114);
             this.groupBox4.TabIndex = 28;
@@ -170,7 +172,7 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.button2);
-            this.groupBox2.Location = new System.Drawing.Point(261, 186);
+            this.groupBox2.Location = new System.Drawing.Point(286, 362);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(140, 114);
             this.groupBox2.TabIndex = 29;
@@ -192,7 +194,7 @@
             this.groupBox5.Controls.Add(this.button5);
             this.groupBox5.Controls.Add(this.textBoxDureeLiaison);
             this.groupBox5.Controls.Add(this.label6);
-            this.groupBox5.Location = new System.Drawing.Point(451, 186);
+            this.groupBox5.Location = new System.Drawing.Point(476, 362);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(160, 114);
             this.groupBox5.TabIndex = 30;
@@ -235,7 +237,7 @@
             this.groupBox3.Controls.Add(this.textBoxDureeAjout);
             this.groupBox3.Controls.Add(this.buttonAjout);
             this.groupBox3.Controls.Add(this.label5);
-            this.groupBox3.Location = new System.Drawing.Point(451, 306);
+            this.groupBox3.Location = new System.Drawing.Point(476, 482);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(356, 112);
             this.groupBox3.TabIndex = 31;
@@ -306,6 +308,24 @@
             this.label5.TabIndex = 11;
             this.label5.Text = "Duree";
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(385, 226);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(55, 13);
+            this.label9.TabIndex = 32;
+            this.label9.Text = "Traversée";
+            // 
+            // listBoxTraversee
+            // 
+            this.listBoxTraversee.FormattingEnabled = true;
+            this.listBoxTraversee.Location = new System.Drawing.Point(451, 226);
+            this.listBoxTraversee.Name = "listBoxTraversee";
+            this.listBoxTraversee.Size = new System.Drawing.Size(390, 95);
+            this.listBoxTraversee.TabIndex = 33;
+            this.listBoxTraversee.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            // 
             // Front
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -313,6 +333,8 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BackgroundImage = global::Connecte.Properties.Resources.vue_port_trinite_mer_morbihan_p_baissac_2914992577;
             this.ClientSize = new System.Drawing.Size(917, 627);
+            this.Controls.Add(this.listBoxTraversee);
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox2);
@@ -368,6 +390,8 @@
         private System.Windows.Forms.TextBox textBoxDureeAjout;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.ListBox listBoxTraversee;
     }
 }
 
