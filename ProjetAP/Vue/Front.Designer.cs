@@ -312,7 +312,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BackgroundImage = global::Connecte.Properties.Resources.vue_port_trinite_mer_morbihan_p_baissac_2914992577;
-            this.ClientSize = new System.Drawing.Size(871, 507);
+            this.ClientSize = new System.Drawing.Size(917, 627);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox2);

@@ -174,6 +174,7 @@ namespace Connecte
 
         private void listBoxSecteur_SelectedIndexChanged(object sender, EventArgs e)
         {
+            //Permet de prendre l'id de la chose sélectionnée
             int secteur = listBoxSecteur.SelectedIndex;
             //Permet de reset, ou sinon il va garder les précédents valeurs
             listBoxLiaison.DataSource = null;
